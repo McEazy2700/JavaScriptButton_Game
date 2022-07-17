@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rock-paper-scissors {
+    display: flex;
+    gap: 1rem;
+}
+
+.rock-paper-scissors button{
+    border: none;
+}
+
+#red, #yellow, #green, .clearBtn {
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+#red {
+    background: red;
+}
+
+#green {
+    background: green;
+}
+
+#yellow {
+    background: yellow;
+}
+
+#red:hover, #yellow:hover, #green:hover, .clearBtn:hover {
+    background: purple;
+}
+
+.clearBtn {
+    background: linear-gradient(rgb(255, 102, 0), rgb(255, 166, 0));
+    font-size: 3rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+}
